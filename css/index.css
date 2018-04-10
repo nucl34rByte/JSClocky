@@ -1,0 +1,21 @@
+body{
+	margin: 0 0;
+	padding: 0 0;
+}
+
+p{
+	margin: 0 0;
+	font-family: "Bodoni MT", "Rockwell";
+	color: #ffffff;
+	text-align: center;
+}
+
+#clock{
+	font-size: 60px;
+	margin-top: 250px;
+}
+
+#hexcolor{
+	font-size: 20px;
+	margin-top: 20px;
+}
