@@ -9,7 +9,7 @@ function updateTime(){
 
 
 	if(h.length < 2){
-		h = '0' + m;
+		h = '0' + h;
 	}
 	if(m.length < 2){
 		m = '0' + m;
@@ -20,6 +20,7 @@ function updateTime(){
 	clock.innerText = h + ':' + m + ':' + s;
 
 	hexcolor.innerText = '#' + h + m + s;
+
 	document.body.style.background = hexcolor.innerText;
 }
 
